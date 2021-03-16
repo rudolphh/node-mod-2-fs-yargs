@@ -1,0 +1,31 @@
+{
+  "name": "asn-1",
+  "version": "1.0.0",
+  "description": "using fs module and express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudolphh/node-mod2-asn1.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "fs"
+  ],
+  "author": "Rudy A Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudolphh/node-mod2-asn1/issues"
+  },
+  "homepage": "https://github.com/rudolphh/node-mod2-asn1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "readline-sync": "^1.4.10",
+    "yargs": "^16.2.0"
+  }
+}
